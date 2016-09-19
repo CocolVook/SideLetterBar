@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="SideLetterBar">
-        <attr name="letterSize" format="dimension|reference" />
-        <attr name="letterColor" format="color|reference" />
-        <attr name="letterColorSelected" format="color|reference" />
+    <declare-styleable name="tinycube_SideLetterBar">
+        <attr name="tinycube_letterSize" format="dimension|reference" />
+        <attr name="tinycube_letterColor" format="color|reference" />
+        <attr name="tinycube_letterColorSelected" format="color|reference" />
     </declare-styleable>
 </resources>

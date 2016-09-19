@@ -66,14 +66,14 @@ public class SideLetterBar extends View {
 
     private void init(@Nullable AttributeSet attrs) {
         if (attrs != null) {
-            TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.SideLetterBar);
+            TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.tinycube_SideLetterBar);
             int n = a.getIndexCount();
             for (int i = 0; i < n; i++) {
-                if (i == R.styleable.SideLetterBar_letterSize) {
+                if (i == R.styleable.tinycube_SideLetterBar_tinycube_letterSize) {
                     letterSize = a.getDimension(i, DEFAULT_LETTER_SIZE);
-                } else if (i == R.styleable.SideLetterBar_letterColor) {
+                } else if (i == R.styleable.tinycube_SideLetterBar_tinycube_letterColor) {
                     letterColor = a.getColor(i, DEFAULT_LETTER_COLOR);
-                } else if (i == R.styleable.SideLetterBar_letterColorSelected) {
+                } else if (i == R.styleable.tinycube_SideLetterBar_tinycube_letterColorSelected) {
                     letterColorSelected = a.getColor(i, DEFAULT_LETTER_COLOR_SELECTED);
                 }
             }
